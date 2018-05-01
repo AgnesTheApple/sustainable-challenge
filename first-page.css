@@ -1,53 +1,11 @@
-/*body {
-	width: 700px;
-	margin: 20px auto;
-	border: 2px solid #bab9b6;
-	font-family: 'Oxygen', sans-serif;
-	background: #f2f2f2;
+html {
+	height: 100%;
 }
-
-h1 {
-	text-transform: uppercase;
-	margin: 20px;
-}
-
-h2 {
-	text-transform: capitalize;
-	margin: 20px;
-}
-
-
-.banner {
-	padding: 20px;
-	color: #809f39;
-	background-image: url("white-wood-texture.jpg");
-	margin: 0;
-
-}
-
-img {
-	width: 700px;
-	height: 300px;
-	border-top: 2px solid #bab9b6;
-	border-bottom: 2px solid #bab9b6;
-
-}
-
-.presentation {
-	padding-left: 20px;
-	font-size: bold;
-}
-
-.presentation p:nth-of-type(1) {
-	padding-left: 20px;
-	border-left: 5px solid #bab9b6;
-}*/
 
 body {
-	background: url("https://www.photographymad.com/files/images/grass-close-up.jpg");
+	background: url("crops.jpg");
 	background-size: cover;
 	background-position: center;
-	font-family: 'Fira Sans', sans-serif;
 
 }
 
@@ -55,6 +13,7 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     background-image: url("light-wood-texture.jpg");
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
@@ -64,25 +23,27 @@ h1 {
 	text-transform: uppercase;
 }
 
-html {
-	height: 100%;
-}
+
 
 .container {
-	background-color: #d9d2b1;
+	background-color: #e2e2eb;
+	width: 75%;
 }
 
-p {
+#content {
 	padding-left: 20px;
 	border-left: 5px solid #bab9b6;
-	font-size: 2em;
+	font-size: 1.5em;
+	text-align: justify;
 }
+
+div.button {
+	padding-top: 50%;
+}
+
 .btn-default {
 	font-weight: bold;
 	border: 1px solid black;
-}
-.btn-block {
-    width: 80%;
 }
 
 .btn-block+.btn-block {
@@ -90,13 +51,28 @@ p {
 }
 
 a:nth-of-type(1).btn-default {
-	background-color: #68a500;
+	background-color: #c7dc70;
 }
 
 a:nth-of-type(2).btn-default {
-	background-color: #c9d874;
+	background-color: #f3f0e0;
 }
 
 a:nth-of-type(3).btn-default {
-	background-color: #ce7f50;
+	background-color: #fecf67;
+}
+
+#quote {
+	text-align: center;
+	font-size: 1.8em;	
+	padding: 20px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#picture {
+	width: 75%;
+	text-align: center;
+	margin: auto;
 }

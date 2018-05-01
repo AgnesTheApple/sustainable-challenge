@@ -1,4 +1,4 @@
-body {
+/*body {
 	width: 700px;
 	margin: 20px auto;
 	border: 2px solid #bab9b6;
@@ -41,4 +41,62 @@ img {
 .presentation p:nth-of-type(1) {
 	padding-left: 20px;
 	border-left: 5px solid #bab9b6;
+}*/
+
+body {
+	background: url("https://www.photographymad.com/files/images/grass-close-up.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url("light-wood-texture.jpg");
+}
+
+h1 {
+	text-shadow: 0px 4px 3px #828655,
+				 0px 8px 13px #754c2e,
+				 0px 18px 23px #cd9774;
+	text-transform: uppercase;
+}
+
+html {
+	height: 100%;
+}
+
+.container {
+	background-color: #d9d2b1;
+}
+
+p {
+	padding-left: 20px;
+	border-left: 5px solid #bab9b6;
+	font-size: 2em;
+}
+.btn-default {
+	font-weight: bold;
+	border: 1px solid black;
+}
+.btn-block {
+    width: 80%;
+}
+
+.btn-block+.btn-block {
+    margin-top: 30px;
+}
+
+a:nth-of-type(1).btn-default {
+	background-color: #68a500;
+}
+
+a:nth-of-type(2).btn-default {
+	background-color: #c9d874;
+}
+
+a:nth-of-type(3).btn-default {
+	background-color: #ce7f50;
 }
